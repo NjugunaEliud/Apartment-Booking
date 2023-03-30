@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    
+    width: 100%;
+       height: 50px;
+       display: flex;
+       align-items: center;
+       left: 0;
+       right: 0;
+       top: 0;
+       justify-content: space-between;
+       position: fixed;
+       background:yellow;
+      
+
+}
+.main-nav ul{
+    display: flex;
+        list-style: none;
+        margin-right: 20px;
+}
+.main-nav ul li a{
+    align-items: center;
+        text-decoration: none;
+        display: inline-block;
+        list-style: none;
+        padding: 1rem;
+        color: black;
+        transition: all .4s;
+}
+#cont{
+    padding: 1rem;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.main-nav ul li a{
+    color: green;
+    padding: 1rem;
+    transition: .4s;
+
+}
+.main-nav ul li a:hover{
+    color: blue;
+    transform: rotate(10deg);
+}
+.menu{
+   display: none;
+    margin-right: 20px;
+}
+.re-menu{
+    width: 0;
+    right: 0;
+    position: absolute;
+    transition: .7s;
+    background: grey;
+   
+}
+.re-menu a{
+     
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 1rem;   
+    display: block;
+  
+}
+.re-menu a:hover{
+    background: rgb(243, 232, 232);
+    color: blue;
+}
+@media screen and (max-width:945px){
+.main-nav{
+    display: none;
+}
+
+ .menu{
+    display: block;
+ }
+        .re-menu.show {
+            width: 50%;
+        } 
+        
+}
+@media screen and (max-width:360px){
+
+        .h{
+            width: 100%;
+        }
+}
+.navbar.active{
+    background-color: yellow;
+}
+p{
+    margin-top: 70px;
+}
+
+
+
+form{
+display: none;
+
+}
+.cancel{
+float: right;
+padding: 50px;
+cursor: pointer;
+}
+.cancell{
+float: right;
+padding:50px;
+cursor: pointer;
+}
+* {
+box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+padding: 20px;
+background-color:aqua;
+}
+.container h1{
+text-align: center;
+padding-top: 3rem;
+}
+.one{
+margin-top: 0px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] ,input[type=tel] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+.loginbtn{
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+
+}
+.loginbtn:hover{
+background-color:green; 
+}
+/* Set a style for the submit button */
+.registerbtn{
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.registerbtn:hover {
+background-color:green;
+}
+
+
+/* Add a blue text color to links */
+a {
+color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+background-color: #f1f1f1;
+text-align: center;
+}
+/* .sec{
+
+background: url(apa.jpg)no-repeat;
+background-image: cover;
+height: calc(100vh-50px);
+width: 100%;
+} */
+.cap{
+display: flex;
+background:linear-gradient(rgba(17, 77, 107, 0.2),rgba(138, 202, 18, 0.4));
+/* justify-content: center; */
+/* letter-spacing: 2px; */
+cursor: pointer;
+flex-direction: column;
+border-radius: 20px;
+text-align: center;
+width: 60%;
+margin: auto;
+margin-top: 10em;
+padding: 10px;
+
+
+}
+.cap{
+box-shadow: 5px 0 5px 0 greenyellow;
+
+}
+.cap p{
+margin:20px;
+}
+.cap p:hover{
+transition: all .7s;
+color:blue;
+
+}
+.two{
+padding-top: 0;
+}
+.container-signin{
+padding: 1em;
+}
+.registration-form{
+animation: zoomin .7s;
+transition: .7s ease-out;
+margin-top: 51px;
+}
+@keyframes zoomin {
+from{
+    transform: scale(0);
+}
+to{
+    transform: scale(1);
+}
+
+}
+.login-form{
+animation: zoom .7s;
+transition: .7s ease-out;
+margin-top: 51px;
+}
+@keyframes  zoom {
+from{
+transform: scale(0);
+}
+to{transform:scale(1);}
+
+
+}
+/* .cap{
+animation: zooms .7s;
+transition: .7s ease-out;
+margin-top: 151px;
+}
+@keyframes  zooms {
+from{
+transform: scale(0);
+}
+to{transform:scale(1);}
+
+
+} */
+.btn-main:hover{
+background-color: aqua;
+}
